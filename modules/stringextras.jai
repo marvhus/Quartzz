@@ -1,4 +1,4 @@
-string_remove_by_index :: (string_pointer:*string, index: s64) {
+string_remove_by_index :: (string_pointer: *string, index: s64) {
     assert(index >= 0);
     assert(index < string_pointer.count);
 
